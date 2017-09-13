@@ -56,7 +56,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		try
+		/*try
 		{
 			if((index<0)||(index>=students.length))
 			{
@@ -66,7 +66,7 @@ public class StudentGroup implements StudentArrayOperation {
 		catch(Exception e)
 		{
 			System.out.println(e);
-		}
+		}*/
 		return null;
 	}
 
