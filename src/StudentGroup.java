@@ -15,7 +15,7 @@ import java.util.*;
 public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
-	//ArrayList<Student> al = new ArrayList<Student>(Arrays.asList(students));
+	
 	
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
@@ -67,13 +67,13 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			System.out.println(e);
 		}*/
-		return null;
+		return students[index];
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
-		try
+		/*try
 		{
 			if(student==null)
 			{
@@ -88,12 +88,28 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			System.out.println(e);
 		}
-		students[index]=student;
+		students[index]=student;*/
 	}
 
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
+		Arrays.asList(students)
+		try
+		{
+			if(student==null)
+			{
+				throw new IllegalArgumentException();
+			}
+			else
+			{
+				students.add(student);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
 	}
 
 	@Override
