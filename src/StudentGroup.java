@@ -67,13 +67,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
-		/*try
+		try
 		{
 			if(student==null)
 			{
 				throw new IllegalArgumentException();
 			}
-			if((index<0)||(index>=student.length))
+			if((index<0)||(index>=students.length))
 			{
 				throw new IllegalArgumentException();
 			}
@@ -81,7 +81,7 @@ public class StudentGroup implements StudentArrayOperation {
 		catch(Exception e)
 		{
 			System.out.println(e);
-		}*/
+		}
 		
 	}
 
