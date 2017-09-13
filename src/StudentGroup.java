@@ -34,7 +34,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		/*try
+		try
 		{
 			if(students==null)
 			{
@@ -45,7 +45,7 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			System.out.println(e);
 		}
-		this.students=students;*/
+		this.students=students;
 		
 	}
 
