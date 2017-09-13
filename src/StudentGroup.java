@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.*;
 
 /**
  * A fix-sized array of students
@@ -14,6 +15,7 @@ import java.util.Date;
 public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
+	ArrayList<Student> al = new ArrayList<Student>(Arrays.asList(students));
 	
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
