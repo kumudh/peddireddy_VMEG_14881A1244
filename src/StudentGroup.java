@@ -36,7 +36,7 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 		try
 		{
-			if(students==null)
+			if(students.length==null)
 			{
 				throw  new IllegalArgumentException();
 			}
