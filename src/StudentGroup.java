@@ -78,7 +78,7 @@ public class StudentGroup implements StudentArrayOperation {
 				throw new IllegalArgumentException();
 			}
 		}
-		catch
+		catch(Exception e)
 		{
 			System.out.println(e);
 		}
