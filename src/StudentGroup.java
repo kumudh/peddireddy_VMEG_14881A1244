@@ -41,7 +41,7 @@ public class StudentGroup implements StudentArrayOperation {
 		}
 		catch(Exception e)
 		{
-			System.out.pritln(e);
+			System.out.println(e);
 		}
 		this.students=students;
 		
