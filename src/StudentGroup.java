@@ -84,7 +84,7 @@ public class StudentGroup implements StudentArrayOperation {
 		{
 			System.out.println(e);
 		}
-		
+		students[index]=student;
 	}
 
 	@Override
