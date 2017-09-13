@@ -62,8 +62,8 @@ public class StudentGroup implements StudentArrayOperation {
 		catch(Exception e)
 		{
 			System.out.println(e);
-		}
-		return null;*/
+		}*/
+		return null;
 	}
 
 	@Override
