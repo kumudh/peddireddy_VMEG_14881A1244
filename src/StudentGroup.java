@@ -94,7 +94,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
-		Arrays.asList(students);
+		/*Arrays.asList(students);
 		try
 		{
 			if(student==null)
@@ -109,7 +109,7 @@ public class StudentGroup implements StudentArrayOperation {
 		catch(Exception e)
 		{
 			System.out.println(e);
-		}
+		}*/
 	}
 
 	@Override
