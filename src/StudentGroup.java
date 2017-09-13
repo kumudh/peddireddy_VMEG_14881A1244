@@ -40,12 +40,16 @@ public class StudentGroup implements StudentArrayOperation {
 			{
 				throw  new IllegalArgumentException();
 			}
+			else
+			{
+				this.students=students;
+			}
 		}
 		catch(Exception e)
 		{
 			System.out.println(e);
 		}
-		this.students=students;
+		
 		
 	}
 
